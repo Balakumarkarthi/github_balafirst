@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="background-image/hero image.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Web_site</title>
+</head>
+<body>
+    <div class="login-page">
+   <div class="container-blue">
+      <div class="after-bg">
+        <nav class="header">
+          <div class="logo">
+            <img src="background-image/Logo.svg">
+       </div>
+        </nav>
+      <div class="row-1">
+          <div class="col-6">
+              <h1>Lorem ipsum dolor, sit</h1>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+              <div class="btn-1">
+                  <button type="text">Sign Up now</button>
+              </div>
+          </div>
+          <div class="col-6 carosel">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="background-image/hero image.svg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="background-image/hero image.svg" style="width:100%">
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="background-image/hero image.svg" style="width:100%">
+                </div>
+                </div>
+                <br>
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+          </div>
+      </div>
+      </div>
+   </div>
+     <div class="login-box">
+         <form class="form1">
+         <h1>Contact Us</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </form>
+        <form class="form2">
+            <label>Name</label>
+            <input type="text">
+            <div class="row-1">
+                <div class=col-1>
+                <label>Email</label>
+                <input type="tel">
+            </div>
+            <div class="col-2">
+                <label>Mobile Number</label>
+                <input type="text">
+                </div>  
+            </div>
+            <label>Choose a topic</label>
+            <select aria-placeholder="Select option"></select>
+            <label>Message</label>
+            <textarea placeholder="Type your message..."></textarea>
+            <div class="btn-1">
+                <button type="text">Submit</button>
+            </div>
+        </form>
+     </div>
+
+</div>
+
+   <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+
+</body>
+
+</html>

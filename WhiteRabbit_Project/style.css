@@ -1,0 +1,261 @@
+:root{
+    --color-white: #fff;
+    --color-black: #000;
+    --btn-color: #008CBA;
+    --color-gray: #9E9E9E;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+    margin:0;
+    background-color: #F1F5F9;
+}
+.login-page {
+  padding-bottom: 30px;
+}
+.login-page .login-box h1 {
+  font-size: 39px;
+}
+.container-blue nav img {
+  width: 87px;
+  height: 24px;
+}
+select {
+  color: #768093;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgaWQ9ImRvd24tYXJyb3ciPjxwYXRoIGQ9Ik0yMi43ODIgMTMuOCAxNyAxOS41ODIgMTEuMjE4IDEzLjhhMSAxIDAgMCAwLTEuNDE0IDEuNDE0TDE2LjI5IDIxLjdhLjk5Mi45OTIgMCAwIDAgLjcxLjI5Mi45OTcuOTk3IDAgMCAwIC43MS0uMjkybDYuNDg2LTYuNDg2YTEgMSAwIDAgMC0xLjQxNC0xLjQxNHoiPjwvcGF0aD48L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-position: 99% center;
+  background-size: 34px;
+}
+.login-page .container-blue {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0PSI3NTAiIHZpZXdCb3g9IjAgMCAxNDQwIDc1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTMzMiA3NTBMMCA2MTBMMC4wNDc1NDczIDBIMTQ0MFY2NzlMMTMzMiA3NTBaIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXJfMV8yNDEpIi8+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJwYWludDBfbGluZWFyXzFfMjQxIiB4MT0iNzIwIiB5MT0iMCIgeDI9IjcyMCIgeTI9Ijc1MCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIHN0b3AtY29sb3I9IiMwMzA2MkYiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxODBCNzQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48L3N2Zz4=);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+    padding: 32px 80px;
+  }
+  .after-bg::after {
+    content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjMyIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDIzMiAxODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNiIgY3k9IjYiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI2IiBjeT0iMzAiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI2IiBjeT0iNTQiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI2IiBjeT0iNzgiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI2IiBjeT0iMTAyIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iNiIgY3k9IjEyNiIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjYiIGN5PSIxNTAiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI2IiBjeT0iMTc0IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMjYiIGN5PSI2IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMjYiIGN5PSIzMCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjI2IiBjeT0iNTQiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIyNiIgY3k9Ijc4IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMjYiIGN5PSIxMDIiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIyNiIgY3k9IjEyNiIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjI2IiBjeT0iMTUwIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMjYiIGN5PSIxNzQiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI0NiIgY3k9IjYiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI0NiIgY3k9IjMwIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iNDYiIGN5PSI1NCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjQ2IiBjeT0iNzgiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI0NiIgY3k9IjEwMiIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjQ2IiBjeT0iMTI2IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iNDYiIGN5PSIxNTAiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI0NiIgY3k9IjE3NCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjY2IiBjeT0iNiIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjY2IiBjeT0iMzAiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI2NiIgY3k9IjU0IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iNjYiIGN5PSI3OCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjY2IiBjeT0iMTAyIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iNjYiIGN5PSIxMjYiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI2NiIgY3k9IjE1MCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjY2IiBjeT0iMTc0IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iODYiIGN5PSI2IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iODYiIGN5PSIzMCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9Ijg2IiBjeT0iNTQiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI4NiIgY3k9Ijc4IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iODYiIGN5PSIxMDIiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSI4NiIgY3k9IjEyNiIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9Ijg2IiBjeT0iMTUwIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iODYiIGN5PSIxNzQiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxMDYiIGN5PSI2IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTA2IiBjeT0iMzAiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxMDYiIGN5PSI1NCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjEwNiIgY3k9Ijc4IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTA2IiBjeT0iMTAyIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTA2IiBjeT0iMTI2IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTA2IiBjeT0iMTUwIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTA2IiBjeT0iMTc0IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTI2IiBjeT0iNiIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjEyNiIgY3k9IjMwIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTI2IiBjeT0iNTQiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxMjYiIGN5PSI3OCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjEyNiIgY3k9IjEwMiIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjEyNiIgY3k9IjEyNiIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjEyNiIgY3k9IjE1MCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjEyNiIgY3k9IjE3NCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjE0NiIgY3k9IjYiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxNDYiIGN5PSIzMCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjE0NiIgY3k9IjU0IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTQ2IiBjeT0iNzgiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxNDYiIGN5PSIxMDIiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxNDYiIGN5PSIxMjYiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxNDYiIGN5PSIxNTAiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxNDYiIGN5PSIxNzQiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxNjYiIGN5PSI2IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTY2IiBjeT0iMzAiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxNjYiIGN5PSI1NCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjE2NiIgY3k9Ijc4IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTY2IiBjeT0iMTAyIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTY2IiBjeT0iMTI2IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTY2IiBjeT0iMTUwIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTY2IiBjeT0iMTc0IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTg2IiBjeT0iNiIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjE4NiIgY3k9IjMwIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMTg2IiBjeT0iNTQiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIxODYiIGN5PSI3OCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjE4NiIgY3k9IjEwMiIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjIwNiIgY3k9IjYiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIyMDYiIGN5PSIzMCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjIwNiIgY3k9IjU0IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMjA2IiBjeT0iNzgiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIyMDYiIGN5PSIxMDIiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIyMjYiIGN5PSI2IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMjI2IiBjeT0iMzAiIHI9IjYiIGZpbGw9IiNFOEVERjMiLz48Y2lyY2xlIGN4PSIyMjYiIGN5PSI1NCIgcj0iNiIgZmlsbD0iI0U4RURGMyIvPjxjaXJjbGUgY3g9IjIyNiIgY3k9Ijc4IiByPSI2IiBmaWxsPSIjRThFREYzIi8+PGNpcmNsZSBjeD0iMjI2IiBjeT0iMTAyIiByPSI2IiBmaWxsPSIjRThFREYzIi8+PC9zdmc+);
+    position: relative;
+    top: 95px;
+    z-index: -1;
+  }
+  .col-6 {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .container-blue .logo {
+    margin-top: ;
+    padding-bottom: 32px;
+  }
+  .login-page .login-box {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    padding: 40px 32px;
+    width: 50%;
+    margin: auto;
+    background-color: #fff;
+    margin-top: 8rem;
+  }
+  .login-page .login-box .form2 label {
+    display: block;
+    padding-bottom: 8px;
+    font-size: 14px;
+  }
+  .login-page .login-box p {
+    color: var(--color-gray);
+  }
+  .login-page .login-box .form2 {
+    text-align: left;
+  }
+  .login-page .login-box .form2 .row-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .login-page .login-box h1, .login-page .login-box p {
+    padding-bottom: 24px;
+  }
+  ::placeholder {
+    font-size: 14px;
+    color: var(--color-black);
+  }
+  select {
+    appearance: none;
+  }
+  .login-page .login-box .form2 input, .login-page .login-box .form2 select {
+    width: 100%;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin-bottom: 24px;
+    padding: 10px;
+  }
+  .carosel img {
+    height: 453px !important;
+  }
+  .login-page .login-box .form2 textarea {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 10px;
+  }
+  .btn-1 button {
+    background-color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 4px;
+  }
+  .container-blue h1 {
+    color: var(--color-white);
+    padding-bottom: 24px;
+  }
+  .container-blue p {
+    color: var(--color-gray);
+  }
+  .container-blue .btn-1 {
+    margin-top: 24px;
+  }
+  .login-page .login-box .form2 .btn-1 {
+    text-align: center;
+    margin-top: 24px;
+  }
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 9px;
+  width: 9px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: var(--color-white);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Media On Tab screen , Mobile screen size */
+@media only screen and (max-width: 1024px){
+  .login-page .container-blue {
+    padding: 24px 32px !important;
+  }
+  .login-page .login-box{
+    width: 65%;
+    margin-top: 90px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col-6 {
+    width: 100%;
+    display: block;
+  }
+  .login-page .login-box {
+    width: 95%;
+    margin-top: 9rem;
+  }
+  .login-page .container-blue {
+    padding: 24px 16px !important;
+    height: 84vh;
+  }
+  .container-blue .btn-1 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .after-bg::after {
+    top: -19px;
+  }
+}
+
+@media only screen and (max-width: 467px){
+
+}
+@media only screen and (max-width: 375px){
+  .login-page .container-blue {
+    height: 88vh;
+    margin-top: 10rem;
+  }
+}
